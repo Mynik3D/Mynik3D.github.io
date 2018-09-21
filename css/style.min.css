@@ -1,0 +1,213 @@
+body,html {
+    height: 100%
+}
+/*VM(Kx7uAkA#Po1F8*/
+#pgwModal,.def-subm,.red-btn {
+    text-align: center
+}
+a{display: inline-block;}
+
+
+@font-face {
+    font-family: museo_sans_cyrl100;
+    src: url(../fonts/museosanscyrl_100-webfont.eot);
+    src: url(../fonts/museosanscyrl_100-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/museosanscyrl_100-webfont.woff2) format("woff2"),url(../fonts/museosanscyrl_100-webfont.woff) format("woff"),url(../fonts/museosanscyrl_100-webfont.ttf) format("truetype"),url(../fonts/museosanscyrl_100-webfont.svg#museo_sans_cyrl100) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: museo_sans_cyrl300;
+    src: url(../fonts/museosanscyrl_300-webfont.eot);
+    src: url(../fonts/museosanscyrl_300-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/museosanscyrl_300-webfont.woff2) format("woff2"),url(../fonts/museosanscyrl_300-webfont.woff) format("woff"),url(../fonts/museosanscyrl_300-webfont.ttf) format("truetype"),url(../fonts/museosanscyrl_300-webfont.svg#museo_sans_cyrl300) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: museo_sans_cyrl500;
+    src: url(../fonts/museosanscyrl_500-webfont.eot);
+    src: url(../fonts/museosanscyrl_500-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/museosanscyrl_500-webfont.woff2) format("woff2"),url(../fonts/museosanscyrl_500-webfont.woff) format("woff"),url(../fonts/museosanscyrl_500-webfont.ttf) format("truetype"),url(../fonts/museosanscyrl_500-webfont.svg#museo_sans_cyrl500) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: museo_sans_cyrl700;
+    src: url(../fonts/museosanscyrl_700-webfont.eot);
+    src: url(../fonts/museosanscyrl_700-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/museosanscyrl_700-webfont.woff2) format("woff2"),url(../fonts/museosanscyrl_700-webfont.woff) format("woff"),url(../fonts/museosanscyrl_700-webfont.ttf) format("truetype"),url(../fonts/museosanscyrl_700-webfont.svg#museo_sans_cyrl700) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: museo_sans_cyrl900;
+    src: url(../fonts/museosanscyrl_900-webfont.eot);
+    src: url(../fonts/museosanscyrl_900-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/museosanscyrl_900-webfont.woff2) format("woff2"),url(../fonts/museosanscyrl_900-webfont.woff) format("woff"),url(../fonts/museosanscyrl_900-webfont.ttf) format("truetype"),url(../fonts/museosanscyrl_900-webfont.svg#museo_sans_cyrl900) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+::-webkit-input-placeholder {
+    color: #000
+}
+
+::-moz-placeholder {
+    color: #000
+}
+
+:-moz-placeholder {
+    color: #000
+}
+
+:-ms-input-placeholder {
+    color: #000
+}
+
+/*Span логотипа*/
+.red{
+color: #e0495a; 
+}
+/*Списки*/
+ul{
+margin: 0;
+	padding: 0 ;
+}
+ul>li{
+	list-style: none;
+	
+	
+}
+h1,h2{
+	margin: 0;
+}
+a,a:hover{
+	text-decoration: none;
+}
+.header__inner,.header-post__inner,
+.header-post__content-slogan,.feature__inner,
+.feature,.order-call,.order-call__inner,
+.product__inner,.product,.stock__inner,.steps,.steps__inner,.story,.story__inner,.footer,.footer__inner,.card,.card__inner,.view__inner,.sod-g,.sod-g__inner{
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.def-inp{
+	padding: 0 19px;
+	color: #000;
+}
+.hc__reply__box__textarea, .hc__reply__box textarea{
+border: 1px solid #223c4e;
+}
+
+.order-call__inner-form .def-form .def-inp {
+    margin-right: 10px;
+}
+
+.def-inp{
+	width: 100%;
+	display: inline-block;
+	height: 50px;
+	border-radius: 5px;
+	border: none;
+}
+.def-textarea {
+    min-height: 150px;
+    margin: 10px 0;
+    max-width: 99%;
+    padding: 15px
+}
+.def-inp, .def-textarea {
+    font: 16px/16px museo_sans_cyrl500,sans-serif;
+}
+
+.def-subm{
+	width: 100%;
+	background: url(../images/bg/red-btn.png) center no-repeat;
+	background-size: cover;
+	cursor: pointer;
+	color: #fff;
+	font: 18px/18px museo_sans_cyrl700,sans-serif;
+	display: inline-block;
+	height: 50px;
+	border-radius: 5px;
+	border: none;
+}
+.def-subm:hover {
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(7%,#de4859),color-stop(7%,#de4859),color-stop(10%,#de4859),color-stop(46%,#de4859),color-stop(46%,#de4859),color-stop(98%,#aa3744));
+    background: -webkit-linear-gradient(bottom,#de4859 7%,#de4859 7%,#de4859 10%,#de4859 46%,#de4859 46%,#aa3744 98%);
+    background: -o-linear-gradient(bottom,#de4859 7%,#de4859 7%,#de4859 10%,#de4859 46%,#de4859 46%,#aa3744 98%);
+    background: linear-gradient(bottom,#de4859 7%,#de4859 7%,#de4859 10%,#de4859 46%,#de4859 46%,#aa3744 98%)
+}
+
+.def-form {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.form-message {
+    padding: 5px;
+    text-align: center; color: #fff; font-size: 18px;
+}
+.form-message-error {
+    background: red;
+}
+.form-message-success {
+    background: green;
+}
+
+img{
+	height: auto;
+	max-width: 100%;
+}
+
+    .section-header{
+    	font: 44px/44px museo_sans_cyrl900,sans-serif;
+   		color: #263e4f;
+   		text-transform: uppercase;
+   		padding-bottom: 22px;
+   		margin-bottom: 22px;
+   		position: relative;
+    }
+    .section-header:after{
+	content: "";
+    background: #de4859;
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    }
+    
+.product__row-i {
+    -webkit-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+}
+.section-toppan{
+	    font: 40px/48px museo_sans_cyrl900,sans-serif;
+	    padding: 42px 10px 16px 30px;
+	    background: #263e4f;
+	    border-bottom: 5px solid #de4859;
+		max-width: 468px;
+		margin-bottom: 20px;
+}
+.view__portf{
+    display: none;
+}
+ .view__inner{
+        max-width: 300px;
+        display: none;
+    }
